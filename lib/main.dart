@@ -39,7 +39,7 @@ class _ColorChangeScreenState extends State<ColorChangeScreen> {
               height: 100,
               width: 100,
               margin: EdgeInsets.all(10),
-              color: selectedIndex == index ? Colors.red : Colors.black,
+              color: selectedIndex == index ? Colors.yellow : Colors.black,
             ),
           );
         }),
