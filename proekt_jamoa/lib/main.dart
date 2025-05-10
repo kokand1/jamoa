@@ -14,6 +14,8 @@ class A extends StatefulWidget {
 class _AState extends State<A> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("data"),),);
+    return Scaffold(backgroundColor: Colors.red,
+      appBar: AppBar(title: Center(child: Text("flutter"),),),
+      body: Center(child: Text("data"),),);
   }
 }
